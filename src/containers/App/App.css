@@ -1,0 +1,53 @@
+.container {
+  width: 40%;
+  background: #fff;
+  display: block;
+  margin: 30px auto;
+  padding: 30px;
+  min-width: 350px;
+}
+.container .app h2 {
+  text-align: center;
+  margin: 10px 0;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+}
+.container .app form {
+  /* border: 2px solid red; */
+}
+.container .app form .grocery-form {
+  width: 100%;
+  /* border: 2px solid blue; */
+  display: flex;
+  border: 0px solid transparent;
+  /* align-items: center; */
+}
+.grocery-form input {
+  width: 90%;
+  font-size: 1.2rem;
+  color: grey;
+  background-color: #f1f5f8;
+  border: transparent;
+  padding: 0px 15px;
+}
+.grocery-form button {
+  width: auto;
+  background: #a5d5f8;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.list-container {
+  /* border: 2px solid red; */
+}
+footer {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+footer p:hover {
+  cursor: pointer;
+}
